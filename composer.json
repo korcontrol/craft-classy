@@ -1,0 +1,37 @@
+{
+  "name": "korcontrol/craft-classy",
+  "description": "Twig helpers inspired by https://github.com/JedWatson/classnames",
+  "type": "craft-plugin",
+  "keywords": ["twig", "css"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kor Control",
+      "homepage": "https://korcontrol.com"
+    }
+  ],
+  "support": {
+    "email": "support@korcontrol.com",
+    "issues": "https://github.com/korcontrol/craft-classy/issues?state=open",
+    "source": "https://github.com/korcontrol/craft-classy",
+    "docs": "https://github.com/korcontrol/craft-classy/blob/main/README.md"
+  },
+  "require": {
+    "craftcms/cms": "^3.7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "korcontrol\\classy\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Classy",
+    "handle": "classy"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}
