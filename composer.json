@@ -17,7 +17,7 @@
     "docs": "https://github.com/korcontrol/craft-classy/blob/main/README.md"
   },
   "require": {
-    "craftcms/cms": "^3.7.0"
+    "craftcms/cms": "^4.0.0"
   },
   "autoload": {
     "psr-4": {
@@ -33,5 +33,10 @@
       "yiisoft/yii2-composer": true,
       "craftcms/plugin-installer": true
     }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "craftcms/rector": "dev-main"
   }
 }
