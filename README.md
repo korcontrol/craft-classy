@@ -1,4 +1,4 @@
-# Classy plugin for Craft CMS 3.x
+# Classy plugin for Craft CMS 4.x
 
 Twig helpers inspired by https://github.com/JedWatson/classnames
 
