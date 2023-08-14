@@ -117,7 +117,7 @@ class Extension extends \Twig\Extension\AbstractExtension
             }
             return $newTag;
         } catch (InvalidArgumentException $e) {
-            Craft::warning($e->getMessage(), __METHOD__);
+            Craft::info($e->getMessage(), __METHOD__);
             return $tag;
         }
     }
@@ -155,7 +155,7 @@ class Extension extends \Twig\Extension\AbstractExtension
         try {
             return implode(" ", self::modifyClasses([], func_get_args()));
         } catch (InvalidArgumentException $e) {
-            Craft::warning($e->getMessage(), __METHOD__);
+            Craft::info($e->getMessage(), __METHOD__);
             return "";
         }
     }
